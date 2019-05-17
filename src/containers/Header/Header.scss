@@ -1,0 +1,16 @@
+.app-header {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+
+  nav {
+    height: 100%;
+  }
+}
+
+.desktop-only {
+  @media(max-width: 499px) {
+    display: none;
+  }
+}
