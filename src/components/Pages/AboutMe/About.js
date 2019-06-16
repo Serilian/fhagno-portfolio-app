@@ -1,10 +1,14 @@
 import React from 'react';
+import PageContent from '../../PageContent/PageContent';
+
+const title='About me';
+const description='Some stuff about myself';
 
 const about = () => {
     return (
-        <div>
-            About Component
-        </div>
+        <PageContent title={title} description={description}>
+            <a href="https://interviewme.pl/cv/filiphagno2">Online CV</a>
+        </PageContent>
     );
 };
 

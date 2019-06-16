@@ -1,11 +1,10 @@
 import React from 'react';
 import PageContent from "../../PageContent/PageContent";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import './Contact.scss'
 
 
 const title = 'Get in touch!';
-const description = "Contact Filip any way you feel comfortable";
+const description = "Contact me any way you feel comfortable";
 
 
 const contact = () => {
@@ -13,17 +12,24 @@ const contact = () => {
         <PageContent title={title} description={description}>
             <div className="contact-list">
                 <div>
-                    <FontAwesomeIcon icon="envelope"/> <p className="icon-p"> fhagno@yahoo.com </p>
+                    <i className="fas fa-envelope fa-2x"/>{" "}fhagno@yahoo.com
                 </div>
 
                 <div>
-                    <FontAwesomeIcon icon="mobile-alt"/> <p className="icon-p"> tel. +48 501 065
-                    274 </p>
+                    <i className={"fas fa-mobile-alt fa-2x"}/>{" "}tel. +48 501 065
+                    274
                 </div>
-                <div>
-                    <FontAwesomeIcon icon="angle-right"/>  <p className="icon-p"><a
-                    rel="noopener noreferrer" target="_blank"
-                    href="https://www.linkedin.com/in/filip-hagno-00936a48"> LinkedIn</a></p>
+                <div style={{display: 'flex', justifyContent: 'center', marginTop: "20px"}}>
+                    <a
+                        rel="noopener noreferrer" target="_blank"
+                        href="https://www.linkedin.com/in/filip-hagno-00936a48">
+                        <i className="fab fa-linkedin fa-4x" style={{color: "eeeeee"}}/>
+                    </a>
+                    <a
+                        rel="noopener noreferrer" target="_blank"
+                        href="https://www.linkedin.com/in/filip-hagno-00936a48">
+                        <i className="fab fa-facebook fa-4x"/>
+                    </a>
                 </div>
             </div>
         </PageContent>

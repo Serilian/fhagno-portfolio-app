@@ -7,11 +7,8 @@ import Home from '../components/Pages/Home/Home';
 import AboutMe from '../components/Pages/AboutMe/About';
 import Portfolio from '../components/Pages/Portfolio/Portfolio';
 import Contact from '../components/Pages/Contact/Contact';
-import {library} from '@fortawesome/fontawesome-svg-core'
-import {faAngleRight, faEnvelope, faIgloo, faMobileAlt} from '@fortawesome/free-solid-svg-icons'
 import Particles from 'react-particles-js';
 
-library.add(faIgloo, faEnvelope, faMobileAlt,faAngleRight);
 
 const particlesOptions = {
     particles: {

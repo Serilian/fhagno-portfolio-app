@@ -2,9 +2,14 @@ import React from 'react';
 import PageContent from '../../PageContent/PageContent'
 
 
-const title = 'Hellloooooo';
+const title = 'Hello there!';
 
-const description = 'This is e-version of Filip Hagno. It\'s clearly not as awesome as real Filip but will give you more info about the guy and his work';
+const description = (
+    <>
+        <p>Welcome to my world!</p>
+        <hr/>
+        <p>Check out my latest creations in portfolio and feel free to contact me however you prefer</p>);
+    </>);
 
 const home = () => {
 

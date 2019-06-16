@@ -6,7 +6,7 @@ const navigationItems = () => {
     return (
         <ul className="navigation-items">
             <NavigationItem
-                link="/" exact >Helloooo</NavigationItem>
+                link="/" exact >Welcome</NavigationItem>
             <NavigationItem
                 link="/aboutMe">About me</NavigationItem>
             <NavigationItem
