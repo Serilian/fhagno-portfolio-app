@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f6aa3f8597d77a26474",
-    "url": "/fhagno-portfolio-app/static/css/main.2e8fa9e0.chunk.css"
+    "revision": "062e1cbf2b274cc6be0d",
+    "url": "/fhagno-portfolio-app/static/css/main.1a4ef0e2.chunk.css"
   },
   {
-    "revision": "7f6aa3f8597d77a26474",
-    "url": "/fhagno-portfolio-app/static/js/main.7f6aa3f8.chunk.js"
+    "revision": "062e1cbf2b274cc6be0d",
+    "url": "/fhagno-portfolio-app/static/js/main.062e1cbf.chunk.js"
   },
   {
     "revision": "8fe3ab9d67359e261052",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/fhagno-portfolio-app/static/media/78.1a947471.jpg"
   },
   {
-    "revision": "6a097cb0cf9ccb7bb7a5acf7185cf6de",
+    "revision": "80624e2717fa053f8a1966f3c4b5cb1b",
     "url": "/fhagno-portfolio-app/index.html"
   }
 ];
