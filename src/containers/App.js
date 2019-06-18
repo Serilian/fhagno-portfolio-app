@@ -63,7 +63,7 @@ class App extends Component {
                         <Route path="/aboutMe" exact component={AboutMe} />
                         <Route path="/portfolio" exact component={Portfolio} />
                         <Route path="/contact" exact component={Contact} />
-                        <Route path="/" exact component={Home} />
+                        <Route path="/" component={Home} />
                     </Switch>
                 </main>
 
