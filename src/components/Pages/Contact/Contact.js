@@ -19,7 +19,7 @@ const contact = () => {
                     <i className={"fas fa-mobile-alt fa-2x"}/>{" "}tel. +48 501 065
                     274
                 </div>
-                <div style={{display: 'flex', justifyContent: 'flex-start', marginTop: "20px"}}>
+                <div style={{display: 'flex', justifyContent: 'center', marginTop: "20px"}}>
                     <a
                         rel="noopener noreferrer" target="_blank"
                         href="https://www.linkedin.com/in/filip-hagno-00936a48">
