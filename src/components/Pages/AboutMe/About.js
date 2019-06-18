@@ -14,7 +14,7 @@ const about = () => {
     return (
         <PageContent title={title} description={description}>
             <p>More detailed info about my experience you can find on:</p>
-            <a href="https://interviewme.pl/cv/filiphagno2" target={"_blank"}>Online CV</a>
+            <a href="https://interviewme.pl/cv/filiphagno2" target={"_blank"} rel="noopener noreferrer">Online CV</a>
 
             <p>Privately husband of the most amazing women and father of three little princesses</p>
             <div style={{display: 'flex', flexWrap: 'wrap', height: '65%'}}>
