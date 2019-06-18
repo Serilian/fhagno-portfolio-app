@@ -10,7 +10,7 @@
 }
 
 .desktop-only {
-  @media(max-width: 499px) {
+  @media(max-width: 630px) {
     display: none;
   }
 }

@@ -12,7 +12,6 @@ const pageContent = ({title, description, children}) => {
             <Animated animationIn="rollIn" isVisible={true}>
                 <span className="description"> {description} </span>
             </Animated>
-
             {children}
         </div>
     );

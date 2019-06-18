@@ -19,16 +19,16 @@ const contact = () => {
                     <i className={"fas fa-mobile-alt fa-2x"}/>{" "}tel. +48 501 065
                     274
                 </div>
-                <div style={{display: 'flex', justifyContent: 'center', marginTop: "20px"}}>
+                <div style={{display: 'flex', justifyContent: 'flex-start', marginTop: "20px"}}>
                     <a
                         rel="noopener noreferrer" target="_blank"
                         href="https://www.linkedin.com/in/filip-hagno-00936a48">
-                        <i className="fab fa-linkedin fa-4x" style={{color: "eeeeee"}}/>
+                        <i className="fab fa-linkedin fa-3x" />
                     </a>
                     <a
                         rel="noopener noreferrer" target="_blank"
-                        href="https://www.linkedin.com/in/filip-hagno-00936a48">
-                        <i className="fab fa-facebook fa-4x"/>
+                        href="https://www.facebook.com/filip.hagno.9">
+                        <i className="fab fa-facebook fa-3x"/>
                     </a>
                 </div>
             </div>

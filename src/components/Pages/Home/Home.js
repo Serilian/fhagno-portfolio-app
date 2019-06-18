@@ -8,7 +8,7 @@ const description = (
     <>
         <p>Welcome to my world!</p>
         <hr/>
-        <p>Check out my latest creations in portfolio and feel free to contact me however you prefer</p>);
+        <p>Check out my latest creations in portfolio and feel free to contact me however you prefer</p>
     </>);
 
 const home = () => {

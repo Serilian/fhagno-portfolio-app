@@ -5,8 +5,8 @@
 .app-container{
   display: flex;
   flex-flow: column;
-  justify-items: center;
-  align-items: center;
+  width:100%;
+  min-height: 98vh;
 }
 
 .particles {
@@ -18,3 +18,6 @@
   z-index: -1;
 }
 
+.content-container {
+  flex: 1;
+}

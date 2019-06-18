@@ -8,6 +8,7 @@ import AboutMe from '../components/Pages/AboutMe/About';
 import Portfolio from '../components/Pages/Portfolio/Portfolio';
 import Contact from '../components/Pages/Contact/Contact';
 import Particles from 'react-particles-js';
+import Footer from '../components/Footer/Footer';
 
 
 const particlesOptions = {
@@ -66,7 +67,10 @@ class App extends Component {
                     </Switch>
                 </main>
 
-                <footer>Footer</footer>
+                <footer>
+                    <Footer />
+
+                </footer>
             </div>
         );
     }
