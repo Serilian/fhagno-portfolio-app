@@ -5,7 +5,7 @@ export const projects = [
         id: uuid(),
         title: 'TES UI',
         type: 'Website',
-        tech: 'React, Emotion, Redux, React Router ',
+        tech: 'React, Emotion, Redux, React Router , Javascript',
         description: 'Sorry NDA, project for UBS ',
         link: ''
     },
@@ -13,7 +13,7 @@ export const projects = [
         id: uuid(),
         title: 'UBS app UI (sorry, NDA)',
         type: 'Website',
-        tech: 'React, Emotion, Redux, React Router ',
+        tech: 'React, Emotion, Redux, React Router, Javascript ',
         description: 'POC of new version to replace legacy UI -Sorry NDA, can\'t say more ',
         link: ''
     },
@@ -21,7 +21,7 @@ export const projects = [
         id: uuid(),
         title: 'NY Economy Refrigeration',
         type: 'Mobile App',
-        tech: 'React Native',
+        tech: 'React Native, Javascript',
         description: 'Mobile application supporting refrigeration service in NY area ',
         link: 'https://play.google.com/store/apps/details?id=com.nyrefservapp&hl=en'
     },
@@ -29,7 +29,7 @@ export const projects = [
         id: uuid(),
         title: 'GeekNet',
         type: 'Website',
-        tech: 'React (with Hooks), Redux, Router, Node(Express), MongoDB, Heroku',
+        tech: 'React (with Hooks), Redux, Router, Node(Express), MongoDB, Heroku, Javascript',
         description: 'Pet project - network to connect with developers',
         link: 'https://morning-sands-92642.herokuapp.com/'
     },
@@ -37,7 +37,7 @@ export const projects = [
         id: uuid(),
         title: 'Smart-face-rec-app',
         type: 'Website',
-        tech: 'React, Redux, Node(Express), PostgreSQL, Docker Heroku, AWS',
+        tech: 'React, Redux, Node(Express), PostgreSQL, Docker Heroku, AWS, Javascript',
         description: 'Pet project - app for smart face recognition in pictures',
         link: 'https://smart-face-rec.herokuapp.com/'
     },
