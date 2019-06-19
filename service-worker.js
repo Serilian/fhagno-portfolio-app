@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fhagno-portfolio-app/precache-manifest.b8965a25b0503842f47cbc25441edf86.js"
+  "/fhagno-portfolio-app/precache-manifest.63d0d59adecad4f7a3f6c1e70985ac2a.js"
 );
 
 workbox.clientsClaim();
