@@ -3,7 +3,6 @@ i {
   margin-right: 15px;
   display: inline-block;
   text-align: center;
-  font-size: 2.5rem;
   color: rgba(0,0,0,0.9);
   transition: all .2s ease-out;
 
@@ -22,4 +21,19 @@ i {
   justify-content: center;
   align-items: center;
 
+  @media(max-width: 600px) {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+}
+
+.socials {
+
+  display: flex;
+  margin-top: 20px;
+
+  @media(max-width: 600px) {
+    margin-top: 40px;
+  }
 }

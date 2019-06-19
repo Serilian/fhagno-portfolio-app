@@ -20,4 +20,9 @@
 
 .content-container {
   flex: 1;
+
+  @media (max-width: 600px) {
+    align-items: center;
+    justify-content: center;
+  }
 }

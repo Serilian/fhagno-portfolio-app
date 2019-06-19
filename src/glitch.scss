@@ -4,6 +4,11 @@ h2 {
   font-weight: 300 !important;
   color: #333;
   text-transform: uppercase;
+
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
+
 }
 
 .glitch-txt {
@@ -82,7 +87,7 @@ h2 {
   left: 1px;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  text-shadow: -1px 0 #f1f1f1;
+  text-shadow: -1px 0 #ffffff;
   content: attr(data-text);
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
@@ -159,14 +164,14 @@ h2 {
   left: -1px;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  text-shadow: 1px 0 #f1f1f1;
+  text-shadow: 1px 0 #ffffff;
   content: attr(data-text);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
 @media screen and (max-width: 665px) {
   h2 {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 

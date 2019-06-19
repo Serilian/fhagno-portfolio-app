@@ -24,6 +24,10 @@ body, html {
   transform: scale3d(1,1,1);
   width: 80%;
 
+  @media (max-width: 550px) {
+    font-size: 40px;
+  }
+
 
   &::before,
   &::after {

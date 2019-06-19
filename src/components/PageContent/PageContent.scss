@@ -2,6 +2,13 @@
   width: 90%;
   margin: 100px 100px;
   height: 100%;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
 }
 
 h2 {
@@ -9,7 +16,11 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 200;
-  text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 }
 
 .description {
@@ -18,4 +29,9 @@ h2 {
   display: block;
   font-size: 2rem;
   font-weight: 300;
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 }
