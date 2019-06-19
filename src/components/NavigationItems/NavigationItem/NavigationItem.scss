@@ -8,7 +8,7 @@
   }
 
   @media (min-width: 630px) {
-    margin:  0 10px;
+    margin: 0 10px;
     display: flex;
     width: auto;
     align-items: center;
@@ -30,17 +30,21 @@
       text-decoration: none;
       height: 100%;
       display: block;
+
+      &:hover, &:active, &.active {
+        color: #E4572E;
+
+      }
     }
 
     &:hover, &:active, &.active {
-      color: #40a4c8;
 
       @media (min-width: 630px) {
         background-color: #fff;
-        color: #000;
         transform: scale(1.1);
-        border-bottom: 1px solid #333333;
+        border-bottom: 1px solid #E4572E;
       }
     }
   }
 }
+

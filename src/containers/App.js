@@ -21,10 +21,10 @@ const particlesOptions = {
             value_area: 600
         },
         color: {
-            value: ['#000000']
+            value: ['#312F2F']
         },
         line_linked: {
-            color: '#000000',
+            color: '#312F2F',
             opacity: 1
         }
     },
