@@ -3,6 +3,14 @@ import uuid from 'uuid/v4';
 export const projects = [
     {
         id: uuid(),
+        title: 'Royal clothing',
+        type: 'Website',
+        tech: 'React, Sass, GraphQL, Stripe Payments, Firebase',
+        description: 'Pet e-commerce app with integrated payments ',
+        link: 'https://royal-clth-live.herokuapp.com'
+    },
+    {
+        id: uuid(),
         title: 'TES UI',
         type: 'Website',
         tech: 'React, Emotion, Redux, React Router , Javascript',
