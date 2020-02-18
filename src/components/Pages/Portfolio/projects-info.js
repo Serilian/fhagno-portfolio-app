@@ -3,6 +3,14 @@ import uuid from 'uuid/v4';
 export const projects = [
     {
         id: uuid(),
+        title: 'Student tracker',
+        type: 'Web App - full stack',
+        tech: 'Java, Spring Boot, Maven, React, AWS',
+        description: 'Simple full stack react with springboot server app ',
+        link: 'http://fullstackdemo-env.jt7yeenx5t.eu-central-1.elasticbeanstalk.com/'
+    },
+    {
+        id: uuid(),
         title: 'Royal clothing',
         type: 'Website',
         tech: 'React, Sass, GraphQL, Stripe Payments, Firebase',
