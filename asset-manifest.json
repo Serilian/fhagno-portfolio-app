@@ -1,16 +1,16 @@
 {
-  "main.css": "/static/css/main.e3476366.chunk.css",
-  "main.js": "/static/js/main.1affef2d.chunk.js",
-  "main.js.map": "/static/js/main.1affef2d.chunk.js.map",
-  "static/js/1.56f11e55.chunk.js": "/static/js/1.56f11e55.chunk.js",
-  "static/js/1.56f11e55.chunk.js.map": "/static/js/1.56f11e55.chunk.js.map",
+  "main.css": "/static/css/main.596918e9.chunk.css",
+  "main.js": "/static/js/main.e078ceb7.chunk.js",
+  "main.js.map": "/static/js/main.e078ceb7.chunk.js.map",
+  "static/js/1.2252d2d5.chunk.js": "/static/js/1.2252d2d5.chunk.js",
+  "static/js/1.2252d2d5.chunk.js.map": "/static/js/1.2252d2d5.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/3littleones2.jpg": "/static/media/3littleones2.61563c91.jpg",
   "static/media/3littlePrincesses.jpg": "/static/media/3littlePrincesses.ece95fe3.jpg",
   "static/media/78.jpg": "/static/media/78.1a947471.jpg",
-  "static/css/main.e3476366.chunk.css.map": "/static/css/main.e3476366.chunk.css.map",
+  "static/css/main.596918e9.chunk.css.map": "/static/css/main.596918e9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d3c475875c4645cf46ad0ff788793ef3.js": "/precache-manifest.d3c475875c4645cf46ad0ff788793ef3.js",
+  "precache-manifest.ffcc2f6bc53b236fc54f3b681de5d3f4.js": "/precache-manifest.ffcc2f6bc53b236fc54f3b681de5d3f4.js",
   "service-worker.js": "/service-worker.js"
 }
